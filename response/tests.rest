@@ -1,10 +1,21 @@
-DELETE http://localhost:3001/api/persons/2
+DELETE http://localhost:3001/api/persons/697b109c65b632a3b8d9fa1f
 
 ###
 POST http://localhost:3001/api/persons
 Content-Type: application/json
 
 {
-    "name": "Monkeyss D Luffy", 
-    "number": "91228"
+    "name": "Monkey D Dragon", 
+    "number": "119128"
+}
+
+###
+GET http://localhost:3001/api/persons
+###
+PUT http://localhost:3001/api/persons/697828bf856e27e2746027a2
+Content-Type: application/json
+
+{
+    "name": "Pranay2", 
+    "number": "12"
 }
